@@ -1,33 +1,3 @@
-# Ice Stack lib
-ICE Queue lib is a Open Source C library to help in Queue creation(enqueue, dequeue and have options to carry custom user elements in queue).
-
-The operations of a queue make it a first-in-first-out (FIFO) data structure. In a FIFO data structure, the first element added to the queue will be the first one to be removed. This is equivalent to the requirement that once a new element is added, all elements that were added before have to be removed before the new element can be removed. 
-
-
-First step, understand before run
---
-
-Study the example in src/main.c to understand how to use...
-Study calls to know how to use  lib...  lib/ice\_queue.h
-
-any doubts... create issue or send me a e-mail...
-
-Second step, testing!
---
-
-
-Look this following commands to run:
-```
-$ git clone https://github.com/CoolerVoid/ice_queue
-$ cd ice_queue
-$ make
-$ ./bin/test_queue
-$ cat src/main.c
-```
-
-look this following:
-```lang=c
-
 // this is a example how you can use the lib ice qeue
 #include <stdio.h>
 #include <stdlib.h>
@@ -102,13 +72,3 @@ int main()
 
 	free(S);
 }
-
-```
-
-
-
-Reference:
---
-https://en.wikipedia.org/wiki/The\_C\_Programming\_Language  (good book)
-
-https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
